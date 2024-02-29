@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+
+/* ### Neutral */
+
+--Dark-gray: hsl(0, 0%, 59%);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--Dark-cyan);
+    background-image: url(./images/bg-pattern-top.svg);
+    background-position-x:-21rem;
+    background-position-y:-35rem;
+    background-repeat: no-repeat;
+}
+.body1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/bg-pattern-bottom.svg);
+    background-position-x:35rem;
+    background-position-y:24rem;
+    background-repeat: no-repeat;
+}
+.card{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 1rem 1rem 1rem 1rem ;
+    box-shadow: 1px 1px 10px -1px var(--Dark-gray);
+    background-color: white;
+}
+
+
+.bg-img{
+    width: 100%;
+    min-height:130px;
+    background-image: url(./images/bg-pattern-card.svg);               
+    position: relative;
+    border-radius: 1rem 1rem 0 0 ;
+}
+.bg-img img{
+    width: 6rem;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    left: 50%;
+    bottom: -30%;
+    transform: translateX(-50%);
+
+}
+.name{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 700;
+}
+.l-nn{
+    margin-left: 0.6rem;
+    color: var(--Dark-gray);
+    font-weight: 500;
+}
+.country{
+    text-align: center;
+    color: var(--Dark-gray);
+    margin-top: 0.5rem ;
+    margin-bottom: 1.2rem ;
+    font-size: 0.9rem;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-block: 1rem;
+    border-top: 1px solid rgb(206, 202, 202);
+    padding-top: 1rem;
+}
+.num{
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.infoname{
+    color: var(--Dark-gray);
+    font-size: 0.7rem;
+}
