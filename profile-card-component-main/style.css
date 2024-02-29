@@ -19,7 +19,7 @@ body{
     height: 100vh;
     background-color:var(--Dark-cyan);
     background-image: url(./images/bg-pattern-top.svg);
-    background-position-x:-18rem;
+    background-position-x:-16rem;
     background-position-y:-35rem;
     background-repeat: no-repeat;
 }
@@ -27,7 +27,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-image: url(./images/bg-pattern-bottom.svg);
-    background-position-x:35rem;
+    background-position-x:40rem;
     background-position-y:24rem;
     background-repeat: no-repeat;
 }
